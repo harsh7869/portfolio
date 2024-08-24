@@ -156,6 +156,17 @@ scroll-behavior: smooth;
 .btn-pink:hover .btn-a {
     color: black;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-project:hover a{
+    color: black;
+
+}
+
 .btn-pink::before{
     content:"";
     position: absolute;
