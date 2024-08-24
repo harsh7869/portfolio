@@ -145,9 +145,17 @@ scroll-behavior: smooth;
     border: solid 3px transparent;
     position: relative;
     z-index: 1;
+    
 
 }
+.btn-a{
+    color: white;
+    text-decoration: none;
+}
 
+.btn-pink:hover .btn-a {
+    color: black;
+}
 .btn-pink::before{
     content:"";
     position: absolute;
@@ -590,7 +598,7 @@ flex-wrap:wrap;
     font-style: bold;
     color: rgb(231,231,231);
     bottom: -34.5%;
-    right:-5%;
+    right:-6%;
     user-select: none;
     overflow-y:hidden ;
 }
