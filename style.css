@@ -1,5 +1,5 @@
 
-/* @media url("font ka url") */
+/* @media url("") */
 *{
 margin: 0px;
 padding: 0px;
@@ -28,6 +28,7 @@ scroll-behavior: smooth;
     display: flex;
     justify-content: space-between ;
     align-items: center;
+
 
     padding: 1rem;
 }
