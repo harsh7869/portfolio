@@ -58,6 +58,8 @@ scroll-behavior: smooth;
     font-size: 20px;
     font-weight: 500;
     cursor:pointer;
+    /* border: 2px solid aqua;
+    border-radius: 10px; */
 
  }
 
@@ -978,3 +980,65 @@ footer{
 
 
 
+
+/* General Button Styling
+.cv-button {
+    width: 220px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid #66FCF1;
+    background: transparent;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Slide Animation */
+  /* .slide {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: #66FCF1;
+    transition: all 0.5s ease;
+  }
+  
+  /* Button Text Styling */
+  /* .button-text {
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Icon Styling */
+  /* .fa-download {
+    position: relative;
+    z-index: 1;
+    background: #66FCF1;
+    color: #031728;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    transform: translateY(50%);
+    transition: all 0.4s;
+  } */
+  
+  /* Hover Effects */
+  /* .cv-button:hover .slide {
+    right: 0;
+  }
+   */
+  /* .cv-button:hover .button-text,
+  .cv-button:hover .fa-download {
+    color: #031728;
+  } */
