@@ -22,7 +22,6 @@ scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
-
 .floating-wrapper {
     position:relative;
     bottom: 20px;
@@ -1034,6 +1033,14 @@ footer{
         gap: 20px;
         z-index: 2;
     }
+    .floating-wrapper{
+        position:relative;
+        bottom: 20px;
+        right: 40px;
+        top:0px;
+        left: 0px;
+            
+        }
 }
 
 @media (max-width: 768px) {
@@ -1097,6 +1104,14 @@ footer{
     footer {
         padding: 2rem;
     }
+    .floating-wrapper{
+        position:relative;
+        bottom: 20px;
+        right: 40px;
+        top:0px;
+        left: 0px;
+            
+        }
 }
 
 @media (max-width: 480px) {
@@ -1151,6 +1166,15 @@ footer{
     .link-wrapper {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .floating-wrapper{
+    position:relative;
+    bottom: 20px;
+    right: 40px;
+    top:0px;
+    left: 0px;
+        
     }
 }
 
