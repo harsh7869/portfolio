@@ -274,7 +274,7 @@ scroll-behavior: smooth;
   font-size: 7em;
   color:rgb(231,231,231);
     
-  bottom:-16%;
+  bottom:-16.5%;
   left: -5%;
   font-weight: bold;
   transition: all 3s;
@@ -768,6 +768,7 @@ flex-wrap:wrap;
     padding: 5rem;
     margin: 10rem auto;
     gap: 30px;
+    background-color: white;
 }
 .skill-container-left{
     width: 50%;
@@ -789,24 +790,24 @@ flex-wrap:wrap;
 
 .skill-fade-text{
     position: absolute;
-    font-size: 15em;
+    font-size: 8em;
     font-style: bold;
-    color: rgb(231,231,231);
-    bottom: -34.5%;
-    right:-6%;
+    color: rgb(231, 231, 231);
+    bottom: -6%;
+    right: 1%;
     user-select: none;
-    overflow-y:hidden ;
+    overflow-y: hidden;
 }
 
 .blob-style{
    position: absolute;
    top: 50%;
    left: 50%;
-   z-index: -1;
+   z-index: 0;
    transform: translate(-50%,-50%);
    animation: blobAnimate 3s linear infinite;
    width: 350px;
-   opacity: 0.8;
+   opacity: 0.5;
    
 
 }
@@ -868,7 +869,7 @@ flex-wrap:wrap;
 
 .contactus-form-section{
     width: 100%;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(231,231,231);
 }
 
 .contactus-heading{
@@ -1029,7 +1030,7 @@ footer{
     }
 
     .skills-container {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
         z-index: 2;
     }
@@ -1041,7 +1042,67 @@ footer{
         left: 0px;
             
         }
-}
+
+        .faded-text{
+            font-size:4em;
+            position: absolute;
+            user-select: none;
+            color:rgb(231,231,231);
+        
+            bottom:-9.5%;
+            left: -1%;
+            font-weight: bold;
+            transition: all 3s;
+    
+        }
+        .skill-fade-text{
+            position: absolute;
+            font-size: 5em;
+            font-style: bold;
+            color: rgb(231, 231, 231);
+            bottom: -1.5%;
+            right: 1%;
+            user-select: none;
+            overflow-y: hidden;
+
+    }}
+    @media (max-width: 1480px){
+        .floating-wrapper{
+            position:relative;
+            bottom: 20px;
+            right: 40px;
+            top:0px;
+            left: 0px;
+                
+            }
+
+        .faded-text{
+            font-size:4em;
+            position: absolute;
+            color:rgb(231,231,231);
+            user-select: none;
+            bottom:-9.5%;
+            left: -1%;
+            font-weight: bold;
+            transition: all 3s;
+            
+        
+            } 
+            
+            .skill-fade-text{
+                position: absolute;
+                font-size: 5em;
+                font-style: bold;
+                color: rgb(231, 231, 231);
+                bottom: -1.5%;
+                right: 1%;
+                user-select: none;
+                overflow-y: hidden;
+            
+            }
+
+      
+        }
 
 @media (max-width: 768px) {
     .navbar {
@@ -1112,6 +1173,36 @@ footer{
         left: 0px;
             
         }
+
+        .faded-text{
+            font-size:4em;
+            position: absolute;
+            user-select: none;
+            color:rgb(231,231,231);
+        
+            bottom:-9.5%;
+            left: -1%;
+            font-weight: bold;
+            transition: all 3s;
+    
+        }
+
+        .skill-fade-text{
+            position: absolute;
+            font-size: 5em;
+            font-style: bold;
+            color: rgb(231, 231, 231);
+            bottom: -1.5%;
+            right: 1%;
+            user-select: none;
+            overflow-y: hidden;
+
+}
+.footer-faded-text{
+
+    font-size: 3em;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -1176,5 +1267,48 @@ footer{
     left: 0px;
         
     }
+
+    .faded-text{
+        font-size:4em;
+        position: absolute;
+        user-select: none;
+        color:rgb(231,231,231);
+    
+        bottom:-9%;
+        left: -1%;
+        font-weight: bold;
+        transition: all 3s;
+
+    }
+    .skill-container-right{
+        display: grid;
+    /* flex-wrap: wrap; */
+    width: 50%;
+    position:relative;
+    gap: 1rem;
+    justify-content: center;
+
+    }
+    .blob-style{
+        display:none;
+    }
+    .skill-fade-text{
+    position: absolute;
+    font-size: 5em;
+    font-style: bold;
+    color: rgb(231, 231, 231);
+    bottom: -1.5%;
+    right: 1%;
+    user-select: none;
+    overflow-y: hidden;
+
 }
 
+.footer-faded-text{
+
+font-size: 2.5em;
+}
+
+
+
+}
