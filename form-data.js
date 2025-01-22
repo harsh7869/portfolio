@@ -22,3 +22,18 @@ document.querySelector('.form').addEventListener('submit', async (e) => {
     }
   });
   
+
+  function toggleMenu() {
+    const navItems = document.querySelector(".nav-items");
+    navItems.classList.toggle("show");
+  }
+
+  
+  // Close the menu when any nav item is clicked
+  document.querySelectorAll(".nav-items a").forEach(item => {
+    item.addEventListener("click", () => {
+      const navItems = document.querySelector(".nav-items");
+      navItems.classList.remove("show"); // Remove the 'show' class to hide the menu
+    });
+  });
+  
