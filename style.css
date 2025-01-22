@@ -1354,7 +1354,7 @@ font-size: 2.5em;
   
     /* Show the nav list when the hamburger is clicked */
     .nav-items.show {
-      display: flex; /* Change to block or flex to show items */
+      display: flex;
       flex-direction: column;
       gap: 10px;
       background-color: white;

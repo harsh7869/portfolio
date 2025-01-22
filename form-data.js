@@ -1,3 +1,5 @@
+
+// for contact form
 document.querySelector('.form').addEventListener('submit', async (e) => {
     e.preventDefault();
   
@@ -21,6 +23,8 @@ document.querySelector('.form').addEventListener('submit', async (e) => {
       alert(result.error || 'Failed to send message.');
     }
   });
+
+  // for nav bar (hamburger click showing)
   
 
   function toggleMenu() {
