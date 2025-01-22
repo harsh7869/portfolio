@@ -693,6 +693,9 @@ flex-wrap:wrap;
     margin-left: 120px;
     background-image: url(./images/Modal_project.png);
 }
+#project5{
+    background-image: url(./images/modern_chair_.png);
+}
 
 
 @media (max-width:1300px){
