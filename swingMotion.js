@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let direction = 1;
     let interval;
     
+    // Set pivot point at the top center
+    bulb.style.transformOrigin = "top center";
 
     function swingBulb() {
 
