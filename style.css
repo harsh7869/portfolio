@@ -143,7 +143,10 @@ scroll-behavior: smooth;
     position: fixed;
     top: 0px; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
-    z-index: 1000; /* Ensures it stays above other elements */
+    z-index: 1000;
+     animation: swing 2s ease-in-out; /* Ensures it stays above other elements */
+    transform-origin: top center; /* Set the pivot point to the top */
+
 }
 
 .mode_light_dark img {
@@ -154,6 +157,7 @@ scroll-behavior: smooth;
 .hidden {
     display: none;
 }
+
 
 
 
