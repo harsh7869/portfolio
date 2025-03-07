@@ -136,6 +136,27 @@ scroll-behavior: smooth;
     font-size:25px;
 }
 
+
+/* for bulb dark and light */
+
+.mode_light_dark {
+    position: fixed;
+    top: 0px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.mode_light_dark img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
 .nav-items{
     display: flex;
     gap: 2rem;

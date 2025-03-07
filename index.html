@@ -23,15 +23,12 @@
             <img src="./images/H-logo.png" class="logo" alt="" />
             <div class="logotext">arsh Shukla</div>
           </div>
-
-        
           <div class="nav-container">
             <!-- Hamburger Icon -->
             <div class="hamburger" onclick="toggleMenu()">
               <div></div>
               <div></div>
-              <div></div>
-              
+              <div></div>   
             </div>
               <!-- Navbar Items -->
             <div class="nav-items">
@@ -39,6 +36,12 @@
               <div><a href="#Skills" class="nav_label"><span>Skills</span></a></div>
               <div><a href="#Contact-me" class="nav_label"><span>Contact me</span></a></div>
               <div class="floating-wrapper">
+
+                <div class="mode_light_dark" onclick="toggleImage()">
+                  <img id="onlight" src="./images/bulb_on.png" alt="First Image">
+                  <img id="offlight" src="./images/bulb_off.png" alt="Second Image" class="hidden">
+              </div>
+
                 <a href="https://drive.google.com/file/d/16AmoQrIAHjAZWWPNFwVn86Nr_S8QbA6L/view?usp=drive_link" class="c-btn" target="_blank" download id="download-resume">
                   <span class="c-btn__label">Download Resume
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,23 +55,14 @@
                     </svg>
                   </span>
                 </a>
+                
+
               </div>
+
+              
             </div>
           </div>
-          
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
+            </div>
 
         <div class="hero-section">
           <div class="absolute faded-text">Harsh Shukla</div>
@@ -563,6 +557,7 @@
     <script  src="form-data.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="light_dark_mode.js"></script>
 
     <script>
       var typeData = new Typed(".role", {
