@@ -144,7 +144,7 @@ scroll-behavior: smooth;
     top: 0px; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
     z-index: 1000;
-     animation: swing 2s ease-in-out; /* Ensures it stays above other elements */
+    animation: swing 2s ease-in-out; /* Ensures it stays above other elements */
     transform-origin: top center; /* Set the pivot point to the top */
 
 }
@@ -156,6 +156,30 @@ scroll-behavior: smooth;
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 1480px) {
+    
+    .mode_light_dark {
+        position: fixed;
+
+        top: 0px;
+        right: -35px;
+    }
+
+    .floating-wrapper{
+        height:50px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .mode_light_dark img {
+        width: 150px; 
+    }
+}
+
+@media (max-width: 768px) {
+     display:disabled
+    
 }
 
 
