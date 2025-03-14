@@ -270,23 +270,6 @@ scroll-behavior: smooth;
     border-radius: 50%;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
  a{
     text-decoration: none;
@@ -585,6 +568,14 @@ a{
     color: #1f1f1f;
 }
 
+.dark-mode .user-image{
+
+    box-shadow: 3px 3px 10px rgb(37, 37, 37);
+}
+
+.dark-mode .btn-pink{
+    box-shadow: 5px 5px 7px 0px #9f9f9f3f;
+}
 
 
 
@@ -1101,6 +1092,16 @@ footer{
     display: flex;
     gap:1rem;
 }
+
+
+/* dark mode color for footer */
+.dark-mode footer{
+    background-color:#454141;
+}
+.dark-mode .footer-faded-text{
+    color: #5d5b5b;
+}
+
 
 /* Responsive Media Queries */
 @media (max-width: 1200px) {
