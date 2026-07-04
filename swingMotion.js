@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
     let bulb = document.querySelector(".mode_light_dark");

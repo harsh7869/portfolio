@@ -28,4 +28,28 @@ let isFirstVisible = true;
                 offLight.classList.add("hidden");
             }
         }
-        
+
+         
+    
+//    window.onload = function() {
+//   // Check if intro shown before
+//   if (!localStorage.getItem('introShown')) {
+//     const intro = document.getElementById('introMessage');
+//     const closeBtn = document.getElementById('closeIntro');
+    
+//     // Show intro message
+//     intro.style.display = 'block';
+    
+//     // When user clicks close, hide intro and save flag
+//     closeBtn.onclick = function() {
+//       intro.style.display = 'none';
+//       localStorage.setItem('introShown', 'true');
+//     };
+
+//     // Or auto-hide after 7 seconds (optional)
+//     setTimeout(() => {
+//       intro.style.display = 'none';
+//       localStorage.setItem('introShown', 'true');
+//     }, 7000);
+//   }
+// }
